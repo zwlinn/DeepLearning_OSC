@@ -1,2 +1,4 @@
-# title
-deep learning for OSCs
+# Deep Learning Accelerated High-throughput Screening of Organic Solar Cells
+In this work, we constructed a computational workflow using a newly established dataset comprising purely experimental PCE values for high-throughput screening of OSC pairs. Eight deep learning models were employed to predict PCE using molecular graphs as the sole descriptors. The trained models were then employed to screen 45,430 virtual D/A pairs, and the reliability of the predictions was further validated through comparisons with experimental reports and density functional theory (DFT) computational analysis. Our workflow achieved the high throughput screening of OSC materials, which may pave a route for future rational material design. 
+The framework was executed utilizing the Torch Python library. 
+The code for SMILES transformation, and the models for training and prediction, are freely accessible
